@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color:#0D0D0D;
+}
+
+/* FORMULARIO */
+.container-form{
+    display: flex;
+    min-width: 100%; /* rellenar pantalla*/
+    min-height: 100%;
+    margin: 2px;
+    transition: all 1s ease;
+
+}
+
+/*CONTENEDOR IMAGEN*/
+.imagen{
+    background-image: url(img/imagen.jpg);
+    background-size: cover;
+    width: 57%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+    opacity: 0.5;
+
+}
+
+/*CONTENEDORES INICIO SESION*/
+.form-info{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    width: 43%;
+    background-color: #0D0D0D;
+}
+
+.form-info-childs{
+    padding: 0 15 px;
+
+}
+
+.form-info-childs h2 {
+    color: floralwhite;
+    font-style: italic;
+    font-size: 3.8rem;
+}
+
+.form-info-childs p {
+    color: floralwhite;
+    font-style: italic;
+    font-size: 1.8rem;
+    margin: 2px;
+
+}
+
+/*TITULO DE INICIAR SESION*/
+.IS{
+    margin-top: 50px;
+}
+
+/*INPUTS*/
+.form {
+    margin: 50px 0 0 0;
+}
+
+.form p {
+    margin-bottom: 15px;
+    margin-top: 20px;
+    font-size: 1.4rem;
+}
+
+.form label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 0 100px;
+
+}
+
+.form label input{
+    width: 100%;
+    padding: 7px;
+    background-color: #0D0D0D;
+    outline: none;
+    border: solid thin floralwhite;
+    border-radius: 5px;
+    color: floralwhite;
+    font-style: italic;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.604);
+
+}
+
+/*enter (opcional)*/
+.form input[type="submit"]{
+    background-color: #0D0D0D;
+    border-radius: 10px;
+    border: none;
+    padding: 2px 50px;
+    margin-top: 3px;
+    cursor: pointer;
+    color: rgb(186, 185, 183);
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.form input[type="submit"]:hover{
+    color: coral;
+    font-size: 1.8rem;
+    font-weight: bold;
+    /*padding-left: 50%;*/
+    transition: all 0.6s ease;
+
+}
+
+/*FRASE DE ABAJO*/
+.slogan {
+    margin-top: 75px;
+    /*margin-bottom: 30px;*/
+}
+
+.slogan h3 {
+    color: floralwhite;
+    font-style: italic;
+    font-size: 1.9rem;
+    margin: 2px;
+}
+
+.slogan h3:hover {
+    font-size: 1.8rem;
+    font-weight: bold;
+    transition: all 0.6s ease;
+}
+
+.slogan1 {
+    padding-right: 80px;
+}
+
+.slogan2 {
+    padding-left: 80px;
+}
