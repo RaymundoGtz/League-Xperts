@@ -1,0 +1,356 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+/*FONDO Y CUERPO*/
+body{
+    justify-content: center;
+    background-color:#040404;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+body{
+    background-image: url(/img/fondo2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+/*ENCABEZADO*/
+header {
+    background:#040404;
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+    position:absolute;
+}
+
+.navegacion {
+    width: 97%;
+    margin: 0 auto;
+}
+
+/*ICONO*/
+.navegacion img {
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    padding-right: 15px;
+    border-radius: 50px;
+}
+
+/*ICONO Y NOMBRE*/
+.PERFIL {
+    display: flex;
+    float: right;
+}
+
+.navegacion h2{
+    float: left;
+    font-size: 1.4rem;
+    padding: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
+    font-style: italic;
+    color:floralwhite;
+}
+
+.navegacion p {
+    padding: 10px;
+    padding-top: 15px;
+    font-size: 1.4rem;
+    font-style: italic;
+    color:floralwhite;
+}
+
+/*---------------------------------------------------------*/
+/*BODY*/
+
+.contenedor1{
+    display: flex;
+    min-width: 100%; /* rellenar pantalla*/
+    min-height: 100%;
+    margin: 2px;
+    transition: all 1s ease;
+}
+
+
+/*CONTAINER 1*/
+
+.botones{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+}
+
+.titulin {
+    padding-top: 120px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+.titulin h2{
+    padding-bottom: 100px;
+    padding-top: 60px;
+    color: floralwhite;
+    font-size: 2.5rem;
+    font-style: italic;
+}
+
+.titulin h2:hover {
+    transition: all 0.6s ease;
+    font-size: 2.6rem;
+}
+
+.titulin img{
+    width: 200px;
+    opacity: 0.3;
+    align-items: center;
+}
+
+/*imagen balon*/
+.item1{
+    align-items: center;
+}
+
+.item2{
+    position: absolute;
+    z-index: 1; /*posicionar texto sobre imagen*/ 
+}
+
+.BOTONS a {
+    text-decoration: none;
+    color: floralwhite;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+
+/*BOTON NUEVO PARTIDO*/
+.btn1{
+    padding: 50px;
+    padding-top: 120px;
+    
+}
+
+
+.btn1 a:hover {
+    font-size: 2rem;
+    font-weight: bold;
+    transition: all 0.6s ease;
+    background-color: rgba(255 250 240 / 0.2);
+}
+
+.btn1 a{
+    width: 300px;
+    height: 50px;
+    border-color: floralwhite; 
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+/*BOTON EDITAR P*/
+.bt2 {
+    padding-top: 10px;
+}
+
+.btn2 a:hover {
+    font-size: 2rem;
+    font-weight: bold;
+    transition: all 0.6s ease;
+    background-color: rgba(255 250 240 / 0.2);
+}
+
+.btn2 a{
+    width: 300px;
+    height: 50px;
+    border-color: floralwhite; 
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+/*---------------------------------------------------------*/
+/* CONTAINER 2 */
+
+.equipos{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+}
+
+.equipos-childs{
+    background-color: rgba(240 248 255 / 0.1);
+    width: 60%;
+    height: 60%;
+    border-radius: 15px;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    backdrop-filter: blur(2px);
+    overflow: hidden;
+    overflow-y: scroll;
+
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+/*fechas*/
+.equipos-childs h4{
+    color: floralwhite;
+    font-size: 0.8rem;
+}
+
+/*VS*/
+.equipos-childs p{
+    color: floralwhite;
+    font-style: italic;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 180px;
+
+}
+
+
+.equipos-childs img {
+    width: 90px;
+
+}
+
+.equipos-childs img:hover {
+    width: 120px;
+    opacity: 0.7;
+    transition: all 0.4s ease;
+}
+
+/*VS1 container*/
+
+.VS1{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.logo1{
+    float: left;
+}
+
+.logo2{
+    float: right;
+}
+
+/*VS2 container*/
+
+.VS2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo3{
+    float: left;
+}
+
+.logo4{
+    float: right;
+}
+
+/*VS3*/
+.VS3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo3{
+    float: left;
+}
+
+.logo4{
+    float: right;
+}
+
+/*VS4*/
+.VS4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo3{
+    float: left;
+}
+
+.logo4{
+    float: right;
+}
+
+/*VS5*/
+.VS5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo3{
+    float: left;
+}
+
+.logo4{
+    float: right;
+}
+
+/*VS6*/
+.VS6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo3{
+    float: left;
+}
+
+.logo4{
+    float: right;
+}
+
+
